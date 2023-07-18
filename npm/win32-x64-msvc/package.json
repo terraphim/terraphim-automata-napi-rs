@@ -1,5 +1,5 @@
 {
-  "name": "-win32-x64-msvc",
+  "name": "@terraphim.ai/aho-corasick-automata-node-rs-win32-x64-msvc",
   "version": "0.0.2",
   "os": [
     "win32"
@@ -7,11 +7,11 @@
   "cpu": [
     "x64"
   ],
-  "main": ".win32-x64-msvc.node",
+  "main": "aho-corasick-automata-node-rs.win32-x64-msvc.node",
   "files": [
-    ".win32-x64-msvc.node"
+    "aho-corasick-automata-node-rs.win32-x64-msvc.node"
   ],
-  "description": "Rust crate [Aho-Corasick](https://github.com/BurntSushi/aho-corasick)",
+  "description": "Node JS bindings to Rust aho-corasick automata crate",
   "keywords": [
     "aho-corasick",
     "automata",
@@ -27,5 +27,5 @@
   "engines": {
     "node": ">= 10"
   },
-  "repository": "https://github.com/terraphim/terraphim-automata-napi-rs.git"
+  "repository": "https://github.com/terraphim/terraphim-automata-napi-rs"
 }

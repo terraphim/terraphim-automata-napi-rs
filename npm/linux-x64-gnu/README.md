@@ -1,3 +1,3 @@
-# `-linux-x64-gnu`
+# `@terraphim.ai/aho-corasick-automata-node-rs-linux-x64-gnu`
 
-This is the **x86_64-unknown-linux-gnu** binary for ``
+This is the **x86_64-unknown-linux-gnu** binary for `@terraphim.ai/aho-corasick-automata-node-rs`

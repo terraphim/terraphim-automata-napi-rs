@@ -1,5 +1,5 @@
 {
-  "name": "-linux-arm64-musl",
+  "name": "@terraphim.ai/aho-corasick-automata-node-rs-linux-arm64-musl",
   "version": "0.0.2",
   "os": [
     "linux"
@@ -7,11 +7,11 @@
   "cpu": [
     "arm64"
   ],
-  "main": ".linux-arm64-musl.node",
+  "main": "aho-corasick-automata-node-rs.linux-arm64-musl.node",
   "files": [
-    ".linux-arm64-musl.node"
+    "aho-corasick-automata-node-rs.linux-arm64-musl.node"
   ],
-  "description": "Rust crate [Aho-Corasick](https://github.com/BurntSushi/aho-corasick)",
+  "description": "Node JS bindings to Rust aho-corasick automata crate",
   "keywords": [
     "aho-corasick",
     "automata",
@@ -27,7 +27,7 @@
   "engines": {
     "node": ">= 10"
   },
-  "repository": "https://github.com/terraphim/terraphim-automata-napi-rs.git",
+  "repository": "https://github.com/terraphim/terraphim-automata-napi-rs",
   "libc": [
     "musl"
   ]

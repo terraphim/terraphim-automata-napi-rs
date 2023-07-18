@@ -1,10 +1,10 @@
 {
-  "name": "",
+  "name": "@terraphim.ai/aho-corasick-automata-node-rs",
   "version": "0.0.2",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
-    "name": "",
+    "name": "aho-corasick-automata-node-rs",
     "triples": {
       "additional": [
         "aarch64-apple-darwin",
@@ -35,7 +35,7 @@
     "version": "napi version"
   },
   "packageManager": "yarn@3.6.1",
-  "description": "Rust crate [Aho-Corasick](https://github.com/BurntSushi/aho-corasick)",
+  "description": "Node JS bindings to Rust aho-corasick automata crate",
   "dependencies": {
     "abbrev": "^1.1.1",
     "acorn": "^8.10.0",
@@ -251,5 +251,14 @@
     "replace"
   ],
   "author": "Alex Mikhalev",
-  "repository": "https://github.com/terraphim/terraphim-automata-napi-rs.git"
+  "repository": "https://github.com/terraphim/terraphim-automata-napi-rs",
+  "optionalDependencies": {
+    "@terraphim.ai/aho-corasick-automata-node-rs-win32-x64-msvc": "0.0.2",
+    "@terraphim.ai/aho-corasick-automata-node-rs-darwin-x64": "0.0.2",
+    "@terraphim.ai/aho-corasick-automata-node-rs-linux-x64-gnu": "0.0.2",
+    "@terraphim.ai/aho-corasick-automata-node-rs-darwin-arm64": "0.0.2",
+    "@terraphim.ai/aho-corasick-automata-node-rs-linux-arm64-gnu": "0.0.2",
+    "@terraphim.ai/aho-corasick-automata-node-rs-linux-arm64-musl": "0.0.2",
+    "@terraphim.ai/aho-corasick-automata-node-rs-linux-x64-musl": "0.0.2"
+  }
 }

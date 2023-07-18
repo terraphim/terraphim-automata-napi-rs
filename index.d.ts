@@ -5,4 +5,3 @@
 
 export function findMatched(patterns: Array<string>, haystack: string): Array<string>
 export function replaceAllStream(patterns: Array<string>, replaceWith: Array<string>, rdr: string): string
-export function sum(a: number, b: number): number
