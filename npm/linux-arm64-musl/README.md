@@ -1,3 +1,3 @@
-# `terraphim-automata-napi-rs-linux-arm64-musl`
+# `-linux-arm64-musl`
 
-This is the **aarch64-unknown-linux-musl** binary for `terraphim-automata-napi-rs`
+This is the **aarch64-unknown-linux-musl** binary for ``

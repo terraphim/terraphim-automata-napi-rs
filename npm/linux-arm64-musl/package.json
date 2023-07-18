@@ -1,20 +1,33 @@
 {
-  "name": "terraphim-automata-napi-rs-linux-arm64-musl",
-  "version": "0.0.0",
+  "name": "-linux-arm64-musl",
+  "version": "0.0.1",
   "os": [
     "linux"
   ],
   "cpu": [
     "arm64"
   ],
-  "main": "terraphim-automata-napi-rs.linux-arm64-musl.node",
+  "main": ".linux-arm64-musl.node",
   "files": [
-    "terraphim-automata-napi-rs.linux-arm64-musl.node"
+    ".linux-arm64-musl.node"
   ],
+  "description": "Rust crate [Aho-Corasick](https://github.com/BurntSushi/aho-corasick)",
+  "keywords": [
+    "aho-corasick",
+    "automata",
+    "napi-rs",
+    "rust",
+    "dfa",
+    "nfa",
+    "search",
+    "replace"
+  ],
+  "author": "Alex Mikhalev",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
   },
+  "repository": "https://github.com/terraphim/terraphim-automata-napi-rs.git",
   "libc": [
     "musl"
   ]
