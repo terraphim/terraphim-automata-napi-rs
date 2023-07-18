@@ -1,7 +1,7 @@
 [package]
 edition = "2021"
-name = "terraphim-automata-napi-rs"
-version = "0.0.0"
+name = "aho-corasick-automata-node-rs"
+version = "0.0.1"
 
 [lib]
 crate-type = ["cdylib"]
