@@ -1,0 +1,21 @@
+{
+  "name": "terraphim-automata-napi-rs-linux-x64-musl",
+  "version": "0.0.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "terraphim-automata-napi-rs.linux-x64-musl.node",
+  "files": [
+    "terraphim-automata-napi-rs.linux-x64-musl.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "libc": [
+    "musl"
+  ]
+}
